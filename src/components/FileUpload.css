@@ -1,0 +1,21 @@
+.file-upload {
+    margin-top: 2rem;
+    text-align: center;
+  }
+  
+  .file-upload input[type="file"] {
+    margin-bottom: 1rem;
+  }
+  
+  .file-upload button {
+    padding: 0.5rem 1rem;
+    background-color: var(--button-bg);
+    color: var(--button-color);
+    border: none;
+    cursor: pointer;
+  }
+  
+  .file-upload p {
+    margin-top: 1rem;
+  }
+  

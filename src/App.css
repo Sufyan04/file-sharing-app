@@ -1,0 +1,32 @@
+:root {
+  --header-bg: #4CAF50;
+  --header-color: white;
+  --button-bg: #f1f1f1;
+  --button-color: black;
+  --footer-bg: #4CAF50;
+  --footer-color: white;
+  --text-color: black; /* Added text color variable */
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: var(--text-color); /* Use the text color variable */
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.dark-mode {
+  --header-bg: #333;
+  --header-color: white;
+  --button-bg: #555;
+  --button-color: white;
+  --footer-bg: #333;
+  --footer-color: white;
+  --text-color: white; /* Use white text in dark mode */
+  background-color: #121212;
+}
